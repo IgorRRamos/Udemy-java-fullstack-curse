@@ -6,7 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="switchCase" />
+        <module name="rest" />
+        <module name="divisao" />
+        <module name="break" />
+        <module name="looping1" />
+        <module name="looping2" />
+        <module name="looping3" />
+        <module name="switchCase1" />
+        <module name="array" />
         <module name="helloWorldMaven" />
+        <module name="continue" />
+        <module name="conditions2" />
+        <module name="conditions" />
+        <module name="multiplicacao" />
       </profile>
     </annotationProcessing>
   </component>
