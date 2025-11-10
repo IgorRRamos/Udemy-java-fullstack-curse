@@ -18,6 +18,11 @@
         <option value="$PROJECT_DIR$/break/pom.xml" />
         <option value="$PROJECT_DIR$/continue/pom.xml" />
         <option value="$PROJECT_DIR$/array/pom.xml" />
+        <option value="$PROJECT_DIR$/string/pom.xml" />
+        <option value="$PROJECT_DIR$/forEach/pom.xml" />
+        <option value="$PROJECT_DIR$/nestedLoops/pom.xml" />
+        <option value="$PROJECT_DIR$/exerciceNestedLoops/pom.xml" />
+        <option value="$PROJECT_DIR$/exerciceSumOfDigits/pom.xml" />
       </list>
     </option>
   </component>

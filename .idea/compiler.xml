@@ -8,8 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="switchCase" />
         <module name="rest" />
+        <module name="exerciceNestedLoops" />
+        <module name="string" />
         <module name="divisao" />
         <module name="break" />
+        <module name="forEach" />
         <module name="looping1" />
         <module name="looping2" />
         <module name="looping3" />
@@ -18,6 +21,8 @@
         <module name="helloWorldMaven" />
         <module name="continue" />
         <module name="conditions2" />
+        <module name="nestedLoops" />
+        <module name="exerciceSumOfDigits" />
         <module name="conditions" />
         <module name="multiplicacao" />
       </profile>
