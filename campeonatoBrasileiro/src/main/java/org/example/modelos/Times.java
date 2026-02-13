@@ -11,16 +11,6 @@ public class Times {
         this.empates = 0;
     }
 
-    @Override
-    public String toString() {
-        return "Times{" +
-                "nome='" + nome + '\'' +
-                ", vitorias=" + vitorias +
-                ", derrotas=" + derrotas +
-                ", empates=" + empates +
-                ", pontos=" + pontos +
-                '}';
-    }
 
     public String getNome() {
         return nome;

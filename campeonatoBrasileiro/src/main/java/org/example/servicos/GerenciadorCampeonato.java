@@ -55,15 +55,22 @@ public class GerenciadorCampeonato implements Controlador {
         }
     }
 
-    @Override
-    public void atualizarTabela() {
-        Collections.sort(times, Comparator.comparingInt(Times::getPontos).reversed());
-    }
 
     @Override
     public void tabela() {
-        for(Times lista : times){
-            System.out.println(lista);
+        ArrayList<Times> tabela = new ArrayList<>();
+
+        for(int i = 0; i < max_times; i++){
+            tabela.add(times.get(i));
+        }
+
+        tabela.sort(Comparator.comparingInt(Times::getPontos).reversed());
+        int position = 1;
+        for(int i = 0; i < max_times; i++){
+            System.out.println(position +  " "  + tabela.get(i).getNome() + "       " + " P " + tabela.get(i).getPontos() + "  V " + tabela.get(i).getVitorias()
+             + "  D " + tabela.get(i).getDerrotas() + "  E " + tabela.get(i).getEmpates());
+
+            position++;
         }
     }
 
